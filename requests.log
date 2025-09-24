@@ -1,0 +1,313 @@
+2025-09-24 22:16:55,733 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.102:5000
+2025-09-24 22:16:55,733 - [33mPress CTRL+C to quit[0m
+2025-09-24 22:16:55,755 -  * Restarting with watchdog (windowsapi)
+2025-09-24 22:16:56,185 -  * Debugger is active!
+2025-09-24 22:16:56,189 -  * Debugger PIN: 244-290-890
+2025-09-24 22:16:56,215 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\jinja2\\environment.py', reloading
+2025-09-24 22:16:56,225 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\jinja2\\exceptions.py', reloading
+2025-09-24 22:16:56,225 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\jinja2\\loaders.py', reloading
+2025-09-24 22:16:56,229 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\jinja2\\runtime.py', reloading
+2025-09-24 22:16:56,231 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\jinja2\\utils.py', reloading
+2025-09-24 22:16:56,234 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\joblib\\__init__.py', reloading
+2025-09-24 22:16:56,234 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\joblib\\memory.py', reloading
+2025-09-24 22:16:56,240 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\joblib\\logger.py', reloading
+2025-09-24 22:16:56,244 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\joblib\\hashing.py', reloading
+2025-09-24 22:16:56,246 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\joblib\\numpy_pickle.py', reloading
+2025-09-24 22:16:56,253 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\joblib\\compressor.py', reloading
+2025-09-24 22:16:56,260 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\joblib\\parallel.py', reloading
+2025-09-24 22:16:56,262 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\joblib\\_cloudpickle_wrapper.py', reloading
+2025-09-24 22:16:56,262 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\jsonschema_specifications\\__init__.py', reloading
+2025-09-24 22:16:56,262 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\kiwisolver\\__init__.py', reloading
+2025-09-24 22:16:56,262 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\kiwisolver\\exceptions.py', reloading
+2025-09-24 22:16:56,262 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\korean_lunar_calendar\\__init__.py', reloading
+2025-09-24 22:16:56,262 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\korean_lunar_calendar\\korean_lunar_calendar.py', reloading
+2025-09-24 22:16:56,277 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\libfuturize\\__init__.py', reloading
+2025-09-24 22:16:56,277 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\libpasteurize\\__init__.py', reloading
+2025-09-24 22:16:56,278 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\markupsafe\\__init__.py', reloading
+2025-09-24 22:16:56,283 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\matplotlib\\pylab.py', reloading
+2025-09-24 22:16:56,312 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\matplotlib\\backends\\registry.py', reloading
+2025-09-24 22:16:56,312 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\numpy\\typing\\__init__.py', reloading
+2025-09-24 22:16:56,312 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\numpy\\_typing\\__init__.py', reloading
+2025-09-24 22:16:56,312 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\numpy\\_typing\\_array_like.py', reloading
+2025-09-24 22:16:56,312 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\matplotlib\\typing.py', reloading
+2025-09-24 22:16:56,346 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\numpy\\_typing\\_extended_precision.py', reloading
+2025-09-24 22:16:56,416 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\matplotlib\\tests\\__init__.py', reloading
+2025-09-24 22:16:56,416 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\multidict\\__init__.py', reloading
+2025-09-24 22:16:56,416 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\multidict\\_abc.py', reloading
+2025-09-24 22:16:56,416 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\multidict\\_multidict_py.py', reloading
+2025-09-24 22:16:56,416 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\narwhals\\__init__.py', reloading
+2025-09-24 22:16:56,416 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\narwhals\\dataframe.py', reloading
+2025-09-24 22:16:56,427 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\narwhals\\dtypes.py', reloading
+2025-09-24 22:16:56,427 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\narwhals\\expr.py', reloading
+2025-09-24 22:16:56,427 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\narwhals\\functions.py', reloading
+2025-09-24 22:16:56,427 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\narwhals\\schema.py', reloading
+2025-09-24 22:16:56,445 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\narwhals\\series.py', reloading
+2025-09-24 22:16:56,445 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\narwhals\\translate.py', reloading
+2025-09-24 22:16:56,445 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\narwhals\\utils.py', reloading
+2025-09-24 22:16:56,445 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\nselib\\__init__.py', reloading
+2025-09-24 22:16:56,445 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\nsepython\\__init__.py', reloading
+2025-09-24 22:16:56,445 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\numexpr\\__init__.py', reloading
+2025-09-24 22:16:56,464 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\odf\\__init__.py', reloading
+2025-09-24 22:16:56,464 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\packaging\\__init__.py', reloading
+2025-09-24 22:16:56,464 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pandastable\\__init__.py', reloading
+2025-09-24 22:16:56,464 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pandas_market_calendars\\__init__.py', reloading
+2025-09-24 22:16:56,464 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pandas_market_calendars\\calendar_registry.py', reloading
+2025-09-24 22:16:56,464 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pandas_market_calendars\\calendars\\mirror.py', reloading
+2025-09-24 22:16:56,477 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pandas_market_calendars\\calendar_utils.py', reloading
+2025-09-24 22:16:56,478 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pandas_market_calendars\\market_calendar.py', reloading
+2025-09-24 22:16:56,483 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\past\\__init__.py', reloading
+2025-09-24 22:16:56,483 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\phe\\__init__.py', reloading
+2025-09-24 22:16:56,483 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\PIL\\__init__.py', reloading
+2025-09-24 22:16:56,487 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\plotly\\__init__.py', reloading
+2025-09-24 22:16:56,494 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\propcache\\__init__.py', reloading
+2025-09-24 22:16:56,494 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\propcache\\api.py', reloading
+2025-09-24 22:16:56,494 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\propcache\\_helpers.py', reloading
+2025-09-24 22:16:56,494 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pyarrow\\__init__.py', reloading
+2025-09-24 22:16:56,494 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydantic\\__init__.py', reloading
+2025-09-24 22:16:56,502 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydantic\\errors.py', reloading
+2025-09-24 22:16:56,502 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydantic\\main.py', reloading
+2025-09-24 22:16:56,512 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydantic\\networks.py', reloading
+2025-09-24 22:16:56,528 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydantic\\types.py', reloading
+2025-09-24 22:16:56,534 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydantic\\deprecated\\tools.py', reloading
+2025-09-24 22:16:56,536 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydantic\\version.py', reloading
+2025-09-24 22:16:56,538 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydantic_core\\core_schema.py', reloading
+2025-09-24 22:16:56,545 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydantic\\aliases.py', reloading
+2025-09-24 22:16:56,548 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydantic\\annotated_handlers.py', reloading
+2025-09-24 22:16:56,548 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydantic\\config.py', reloading
+2025-09-24 22:16:56,548 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydantic\\fields.py', reloading
+2025-09-24 22:16:56,548 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydantic\\functional_serializers.py', reloading
+2025-09-24 22:16:56,562 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydantic\\functional_validators.py', reloading
+2025-09-24 22:16:56,562 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydantic\\json_schema.py', reloading
+2025-09-24 22:16:56,562 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydantic\\type_adapter.py', reloading
+2025-09-24 22:16:56,562 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydantic\\validate_call_decorator.py', reloading
+2025-09-24 22:16:56,562 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydantic\\warnings.py', reloading
+2025-09-24 22:16:56,577 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydantic\\deprecated\\class_validators.py', reloading
+2025-09-24 22:16:56,580 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydantic\\deprecated\\config.py', reloading
+2025-09-24 22:16:56,581 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydantic\\root_model.py', reloading
+2025-09-24 22:16:56,583 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydantic_core\\__init__.py', reloading
+2025-09-24 22:16:56,587 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydash\\__init__.py', reloading
+2025-09-24 22:16:56,592 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydash\\arrays.py', reloading
+2025-09-24 22:16:56,599 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydash\\chaining\\__init__.py', reloading
+2025-09-24 22:16:56,600 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydash\\chaining\\chaining.py', reloading
+2025-09-24 22:16:56,602 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydash\\collections.py', reloading
+2025-09-24 22:16:56,607 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydash\\exceptions.py', reloading
+2025-09-24 22:16:56,611 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydash\\functions.py', reloading
+2025-09-24 22:16:56,616 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydash\\numerical.py', reloading
+2025-09-24 22:16:56,619 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydash\\objects.py', reloading
+2025-09-24 22:16:56,625 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydash\\predicates.py', reloading
+2025-09-24 22:16:56,638 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydash\\strings.py', reloading
+2025-09-24 22:16:56,644 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydash\\utilities.py', reloading
+2025-09-24 22:16:56,646 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydeck\\__init__.py', reloading
+2025-09-24 22:16:56,647 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pyluach\\__init__.py', reloading
+2025-09-24 22:16:56,647 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pyparsing\\__init__.py', reloading
+2025-09-24 22:16:56,649 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pyparsing\\util.py', reloading
+2025-09-24 22:16:56,651 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pyparsing\\exceptions.py', reloading
+2025-09-24 22:16:56,652 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pyparsing\\actions.py', reloading
+2025-09-24 22:16:56,654 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pyparsing\\results.py', reloading
+2025-09-24 22:16:56,656 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pyparsing\\core.py', reloading
+2025-09-24 22:16:56,668 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pyparsing\\helpers.py', reloading
+2025-09-24 22:16:56,675 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pyparsing\\unicode.py', reloading
+2025-09-24 22:16:56,691 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\PyQt5\\__init__.py', reloading
+2025-09-24 22:16:56,691 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\python_calamine\\__init__.py', reloading
+2025-09-24 22:16:56,707 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pyxlsb\\__init__.py', reloading
+2025-09-24 22:16:56,707 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\referencing\\__init__.py', reloading
+2025-09-24 22:16:56,707 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\referencing\\_core.py', reloading
+2025-09-24 22:16:56,712 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\cluster\\__init__.py', reloading
+2025-09-24 22:16:56,712 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\conftest.py', reloading
+2025-09-24 22:16:56,712 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\constants\\__init__.py', reloading
+2025-09-24 22:16:56,712 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\constants\\_codata.py', reloading
+2025-09-24 22:16:56,735 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\constants\\_constants.py', reloading
+2025-09-24 22:16:56,738 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\datasets\\__init__.py', reloading
+2025-09-24 22:16:56,738 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\datasets\\_fetchers.py', reloading
+2025-09-24 22:16:56,738 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\datasets\\_download_all.py', reloading
+2025-09-24 22:16:56,738 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\datasets\\_utils.py', reloading
+2025-09-24 22:16:56,738 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\differentiate\\__init__.py', reloading
+2025-09-24 22:16:56,738 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\differentiate\\_differentiate.py', reloading
+2025-09-24 22:16:56,745 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\fft\\__init__.py', reloading
+2025-09-24 22:16:56,745 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\fft\\_basic.py', reloading
+2025-09-24 22:16:56,750 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\fft\\_realtransforms.py', reloading
+2025-09-24 22:16:56,750 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\fft\\_fftlog.py', reloading
+2025-09-24 22:16:56,750 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\fft\\_fftlog_backend.py', reloading
+2025-09-24 22:16:56,755 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\fft\\_helper.py', reloading
+2025-09-24 22:16:56,755 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\fft\\_backend.py', reloading
+2025-09-24 22:16:56,755 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\fft\\_pocketfft\\helper.py', reloading
+2025-09-24 22:16:56,755 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\integrate\\__init__.py', reloading
+2025-09-24 22:16:56,755 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\integrate\\_quadrature.py', reloading
+2025-09-24 22:16:56,766 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\integrate\\_odepack_py.py', reloading
+2025-09-24 22:16:56,766 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\integrate\\_quadpack_py.py', reloading
+2025-09-24 22:16:56,780 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\integrate\\_ode.py', reloading
+2025-09-24 22:16:56,787 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\interpolate\\__init__.py', reloading
+2025-09-24 22:16:56,789 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\interpolate\\_interpolate.py', reloading
+2025-09-24 22:16:56,794 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\interpolate\\_fitpack_py.py', reloading
+2025-09-24 22:16:56,796 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\interpolate\\_fitpack2.py', reloading
+2025-09-24 22:16:56,800 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\interpolate\\_rbfinterp.py', reloading
+2025-09-24 22:16:56,802 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\interpolate\\_polyint.py', reloading
+2025-09-24 22:16:56,804 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\interpolate\\_cubic.py', reloading
+2025-09-24 22:16:56,806 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\interpolate\\_ndgriddata.py', reloading
+2025-09-24 22:16:56,808 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\interpolate\\_bsplines.py', reloading
+2025-09-24 22:16:56,809 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\interpolate\\_pade.py', reloading
+2025-09-24 22:16:56,809 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\interpolate\\_rgi.py', reloading
+2025-09-24 22:16:56,809 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\interpolate\\_bary_rational.py', reloading
+2025-09-24 22:16:56,809 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\io\\__init__.py', reloading
+2025-09-24 22:16:56,809 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\misc\\__init__.py', reloading
+2025-09-24 22:16:56,809 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\ndimage\\__init__.py', reloading
+2025-09-24 22:16:56,809 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\ndimage\\_support_alternative_backends.py', reloading
+2025-09-24 22:16:56,825 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\ndimage\\_ndimage_api.py', reloading
+2025-09-24 22:16:56,826 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\ndimage\\_filters.py', reloading
+2025-09-24 22:16:56,826 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\ndimage\\_fourier.py', reloading
+2025-09-24 22:16:56,826 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\ndimage\\_interpolation.py', reloading
+2025-09-24 22:16:56,833 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\ndimage\\_measurements.py', reloading
+2025-09-24 22:16:56,833 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\ndimage\\_morphology.py', reloading
+2025-09-24 22:16:56,838 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\odr\\__init__.py', reloading
+2025-09-24 22:16:56,841 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\odr\\_odrpack.py', reloading
+2025-09-24 22:16:56,841 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\odr\\_models.py', reloading
+2025-09-24 22:16:56,841 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\signal\\__init__.py', reloading
+2025-09-24 22:16:56,841 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\signal\\_waveforms.py', reloading
+2025-09-24 22:16:56,841 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\signal\\_spline_filters.py', reloading
+2025-09-24 22:16:56,841 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\signal\\_filter_design.py', reloading
+2025-09-24 22:16:56,861 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\signal\\_fir_filter_design.py', reloading
+2025-09-24 22:16:56,863 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\signal\\_ltisys.py', reloading
+2025-09-24 22:16:56,863 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\signal\\_lti_conversion.py', reloading
+2025-09-24 22:16:56,863 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\signal\\_signaltools.py', reloading
+2025-09-24 22:16:56,873 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\signal\\_spectral_py.py', reloading
+2025-09-24 22:16:56,878 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\signal\\_short_time_fft.py', reloading
+2025-09-24 22:16:56,878 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\signal\\_peak_finding.py', reloading
+2025-09-24 22:16:56,894 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\signal\\_czt.py', reloading
+2025-09-24 22:16:56,895 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\spatial\\__init__.py', reloading
+2025-09-24 22:16:56,897 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\spatial\\_kdtree.py', reloading
+2025-09-24 22:16:56,900 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\spatial\\_plotutils.py', reloading
+2025-09-24 22:16:56,901 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\special\\_sf_error.py', reloading
+2025-09-24 22:16:56,902 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\special\\_spfun_stats.py', reloading
+2025-09-24 22:16:56,903 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\special\\_ellip_harm.py', reloading
+2025-09-24 22:16:56,904 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\special\\_lambertw.py', reloading
+2025-09-24 22:16:56,905 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\special\\_spherical_bessel.py', reloading
+2025-09-24 22:16:56,906 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\version.py', reloading
+2025-09-24 22:16:56,907 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\__config__.py', reloading
+2025-09-24 22:16:56,909 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\sklearn\\frozen\\__init__.py', reloading
+2025-09-24 22:16:56,910 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\sklearn\\frozen\\_frozen.py', reloading
+2025-09-24 22:16:56,912 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\smmap\\__init__.py', reloading
+2025-09-24 22:16:56,912 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\sniffio\\__init__.py', reloading
+2025-09-24 22:16:56,913 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\sniffio\\_impl.py', reloading
+2025-09-24 22:16:56,914 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\soupsieve\\__init__.py', reloading
+2025-09-24 22:16:56,915 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\soupsieve\\util.py', reloading
+2025-09-24 22:16:56,916 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\sqlparse\\__init__.py', reloading
+2025-09-24 22:16:56,918 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\streamlit\\__init__.py', reloading
+2025-09-24 22:16:56,927 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\streamlit\\commands\\echo.py', reloading
+2025-09-24 22:16:56,927 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\streamlit\\commands\\logo.py', reloading
+2025-09-24 22:16:56,927 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\streamlit\\commands\\navigation.py', reloading
+2025-09-24 22:16:56,927 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\streamlit\\navigation\\page.py', reloading
+2025-09-24 22:16:56,927 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\streamlit\\elements\\spinner.py', reloading
+2025-09-24 22:16:56,927 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\streamlit\\commands\\page_config.py', reloading
+2025-09-24 22:16:56,927 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\streamlit\\commands\\execution_control.py', reloading
+2025-09-24 22:16:56,942 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tenacity\\__init__.py', reloading
+2025-09-24 22:16:56,949 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tenacity\\retry.py', reloading
+2025-09-24 22:16:56,949 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tenacity\\nap.py', reloading
+2025-09-24 22:16:56,949 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tenacity\\stop.py', reloading
+2025-09-24 22:16:56,949 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tenacity\\wait.py', reloading
+2025-09-24 22:16:56,949 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tenacity\\before.py', reloading
+2025-09-24 22:16:56,949 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tenacity\\after.py', reloading
+2025-09-24 22:16:56,949 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tenacity\\before_sleep.py', reloading
+2025-09-24 22:16:56,949 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tenacity\\asyncio\\__init__.py', reloading
+2025-09-24 22:16:56,949 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tlz\\__init__.py', reloading
+2025-09-24 22:16:56,949 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\toolz\\__init__.py', reloading
+2025-09-24 22:16:56,949 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\ttkbootstrap\\__init__.py', reloading
+2025-09-24 22:16:56,958 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tzdata\\__init__.py', reloading
+2025-09-24 22:16:56,958 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\urllib3\\__init__.py', reloading
+2025-09-24 22:16:56,958 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\urllib3\\_collections.py', reloading
+2025-09-24 22:16:56,958 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\urllib3\\connectionpool.py', reloading
+2025-09-24 22:16:56,958 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\urllib3\\filepost.py', reloading
+2025-09-24 22:16:56,958 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\urllib3\\poolmanager.py', reloading
+2025-09-24 22:16:56,958 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\urllib3\\response.py', reloading
+2025-09-24 22:16:56,958 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\urllib3\\util\\request.py', reloading
+2025-09-24 22:16:56,974 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\urllib3\\util\\retry.py', reloading
+2025-09-24 22:16:56,977 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\urllib3\\util\\timeout.py', reloading
+2025-09-24 22:16:56,978 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\uvicorn\\__init__.py', reloading
+2025-09-24 22:16:56,980 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\uvicorn\\config.py', reloading
+2025-09-24 22:16:56,984 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\uvicorn\\main.py', reloading
+2025-09-24 22:16:56,988 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\uvicorn\\server.py', reloading
+2025-09-24 22:16:56,992 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\watchfiles\\__init__.py', reloading
+2025-09-24 22:16:56,993 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\watchfiles\\filters.py', reloading
+2025-09-24 22:16:56,995 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\watchfiles\\main.py', reloading
+2025-09-24 22:16:56,997 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\watchfiles\\run.py', reloading
+2025-09-24 22:16:56,999 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\watchfiles\\version.py', reloading
+2025-09-24 22:16:57,000 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\websockets\\__init__.py', reloading
+2025-09-24 22:16:57,002 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\websockets\\asyncio\\client.py', reloading
+2025-09-24 22:16:57,004 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\websockets\\asyncio\\router.py', reloading
+2025-09-24 22:16:57,005 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\websockets\\asyncio\\server.py', reloading
+2025-09-24 22:16:57,008 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\websockets\\asyncio\\connection.py', reloading
+2025-09-24 22:16:57,011 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\websockets\\client.py', reloading
+2025-09-24 22:16:57,011 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\websockets\\datastructures.py', reloading
+2025-09-24 22:16:57,011 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\websockets\\exceptions.py', reloading
+2025-09-24 22:16:57,016 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\websockets\\frames.py', reloading
+2025-09-24 22:16:57,016 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\websockets\\http11.py', reloading
+2025-09-24 22:16:57,016 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\websockets\\protocol.py', reloading
+2025-09-24 22:16:57,016 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\websockets\\server.py', reloading
+2025-09-24 22:16:57,016 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\websockets\\typing.py', reloading
+2025-09-24 22:16:57,016 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\__init__.py', reloading
+2025-09-24 22:16:57,016 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\serving.py', reloading
+2025-09-24 22:16:57,029 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\test.py', reloading
+2025-09-24 22:16:57,029 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\xlsxwriter\\__init__.py', reloading
+2025-09-24 22:16:57,029 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\yarl\\__init__.py', reloading
+2025-09-24 22:16:57,029 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\yarl\\_query.py', reloading
+2025-09-24 22:16:57,046 -  * Detected change in 'C:\\Users\\jaive\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\yarl\\_url.py', reloading
+2025-09-24 22:16:57,050 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\__init__.py', reloading
+2025-09-24 22:16:57,052 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pkg_resources\\__init__.py', reloading
+2025-09-24 22:16:57,279 -  * Restarting with watchdog (windowsapi)
+2025-09-24 22:16:57,546 -  * Debugger is active!
+2025-09-24 22:16:57,546 -  * Debugger PIN: 244-290-890
+2025-09-24 22:17:45,702 - 192.168.0.102 - GET http://192.168.0.102:5000/ - Headers: Host: 192.168.0.102:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+ - Body: 
+2025-09-24 22:17:45,702 - 192.168.0.102 - - [24/Sep/2025 22:17:45] "GET / HTTP/1.1" 200 -
+2025-09-24 22:17:45,805 - 192.168.0.102 - GET http://192.168.0.102:5000/favicon.ico - Headers: Host: 192.168.0.102:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Referer: http://192.168.0.102:5000/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+ - Body: 
+2025-09-24 22:17:45,806 - 192.168.0.102 - - [24/Sep/2025 22:17:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-24 22:17:56,214 - 127.0.0.1 - GET http://127.0.0.1:5000/ - Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+ - Body: 
+2025-09-24 22:17:56,215 - 127.0.0.1 - - [24/Sep/2025 22:17:56] "GET / HTTP/1.1" 200 -
+2025-09-24 22:17:56,259 - 127.0.0.1 - GET http://127.0.0.1:5000/favicon.ico - Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua-Platform: "Windows"
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+Sec-Ch-Ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+Sec-Ch-Ua-Mobile: ?0
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+ - Body: 
+2025-09-24 22:17:56,259 - 127.0.0.1 - - [24/Sep/2025 22:17:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
