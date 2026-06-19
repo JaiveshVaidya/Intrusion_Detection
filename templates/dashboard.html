@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecurIDS - Cyber Intrusion Detection System</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Cyber Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Main Dashboard Stylesheet -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/dashboard.css') }}">
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="dashboard-wrapper">
+        <!-- Toast Container for Realtime Alerts -->
+        <div id="toast-container" class="toast-container"></div>
+
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="brand">
+                <div class="brand-logo">
+                    <i class="fa-solid fa-shield-halved glow-icon-purple"></i>
+                </div>
+                <h2>Secur<span>IDS</span></h2>
+            </div>
+            
+            <nav class="nav-links">
+                <a href="#" class="active"><i class="fa-solid fa-chart-line"></i> Dashboard</a>
+                <a href="#traffic-chart-section"><i class="fa-solid fa-chart-area"></i> Analytics</a>
+                <a href="#attacks-log-section"><i class="fa-solid fa-circle-exclamation"></i> Threat Log</a>
+                <a href="#blocked-ips-section"><i class="fa-solid fa-ban"></i> Blocklist</a>
+            </nav>
+            
+            <div class="system-status">
+                <div class="status-indicator-container">
+                    <span class="pulse-dot green" id="engine-status-dot"></span>
+                    <span class="status-text" id="engine-status-text">IDS Active</span>
+                </div>
+                <div class="telemetry-bar">
+                    <div class="telemetry-label">
+                        <span>CPU Usage</span>
+                        <span id="cpu-value">0%</span>
+                    </div>
+                    <div class="bar-bg"><div class="bar-fill" id="cpu-bar" style="width: 0%"></div></div>
+                </div>
+                <div class="telemetry-bar">
+                    <div class="telemetry-label">
+                        <span>Memory</span>
+                        <span id="ram-value">0%</span>
+                    </div>
+                    <div class="bar-bg"><div class="bar-fill" id="ram-bar" style="width: 0%"></div></div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Top Header -->
+            <header class="top-header">
+                <div class="header-title">
+                    <h1>Security Operations Center</h1>
+                    <p>Real-time threat monitoring, packet analysis & intrusion prevention system</p>
+                </div>
+                
+                <div class="simulation-badge" id="sim-badge">
+                    <span class="badge-dot"></span>
+                    <span class="badge-text">Simulator Idle</span>
+                </div>
+            </header>
+
+            <!-- Metrics Overview Grid -->
+            <section class="metrics-grid">
+                <div class="card metric-card">
+                    <div class="card-glow rose"></div>
+                    <div class="metric-icon bg-rose"><i class="fa-solid fa-shield-virus"></i></div>
+                    <div class="metric-data">
+                        <h3>Attacks Blocked</h3>
+                        <div class="value rose-text" id="metric-attacks">0</div>
+                    </div>
+                </div>
+
+                <div class="card metric-card">
+                    <div class="card-glow cyan"></div>
+                    <div class="metric-icon bg-cyan"><i class="fa-solid fa-server"></i></div>
+                    <div class="metric-data">
+                        <h3>Total Requests</h3>
+                        <div class="value cyan-text" id="metric-requests">0</div>
+                    </div>
+                </div>
+
+                <div class="card metric-card">
+                    <div class="card-glow amber"></div>
+                    <div class="metric-icon bg-amber"><i class="fa-solid fa-user-slash"></i></div>
+                    <div class="metric-data">
+                        <h3>Blocked IPs</h3>
+                        <div class="value amber-text" id="metric-blocked-ips">0</div>
+                    </div>
+                </div>
+
+                <div class="card metric-card">
+                    <div class="card-glow purple"></div>
+                    <div class="metric-icon bg-purple"><i class="fa-solid fa-triangle-exclamation"></i></div>
+                    <div class="metric-data">
+                        <h3>Threat Level</h3>
+                        <div class="value purple-text" id="metric-threat-level">LOW</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Control & Analytics Center -->
+            <section class="dashboard-middle-grid">
+                <!-- Simulation Control Center -->
+                <div class="card glass-card control-panel-card">
+                    <div class="card-header">
+                        <h2><i class="fa-solid fa-sliders"></i> Simulator Control Center</h2>
+                    </div>
+                    <div class="card-body">
+                        <p class="panel-desc">Launch background simulations to generate traffic, execute common attack signatures, and test rate-limiting features.</p>
+                        
+                        <div class="btn-group">
+                            <button id="btn-start-sim" class="btn btn-success"><i class="fa-solid fa-play"></i> Start Continuous Simulation</button>
+                            <button id="btn-stop-sim" class="btn btn-danger" disabled><i class="fa-solid fa-square"></i> Stop Simulation</button>
+                        </div>
+
+                        <hr class="card-divider">
+
+                        <h3>Send Specific Attack Payload</h3>
+                        <div class="attack-shortcuts">
+                            <button class="btn btn-outline" data-attack="SQL Injection"><i class="fa-solid fa-database"></i> SQLi</button>
+                            <button class="btn btn-outline" data-attack="XSS Attack"><i class="fa-solid fa-code"></i> XSS</button>
+                            <button class="btn btn-outline" data-attack="Path Traversal"><i class="fa-solid fa-folder-open"></i> Path Traversal</button>
+                            <button class="btn btn-outline" data-attack="Command Injection"><i class="fa-solid fa-terminal"></i> Cmd Injection</button>
+                        </div>
+                        
+                        <hr class="card-divider">
+                        
+                        <div class="maintenance-group">
+                            <button id="btn-clear-logs" class="btn btn-warning"><i class="fa-solid fa-trash-can"></i> Clear All Logs & DB</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Attack Type Breakdown Chart -->
+                <div class="card glass-card chart-card">
+                    <div class="card-header">
+                        <h2><i class="fa-solid fa-chart-pie"></i> Attack Distribution</h2>
+                    </div>
+                    <div class="card-body chart-container">
+                        <canvas id="attackPieChart"></canvas>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Traffic Activity Over Time Section -->
+            <section id="traffic-chart-section" class="card glass-card full-width-card">
+                <div class="card-header">
+                    <h2><i class="fa-solid fa-wave-square"></i> Traffic Activity (Requests / 5s)</h2>
+                </div>
+                <div class="card-body trend-chart-container">
+                    <canvas id="trafficTrendChart"></canvas>
+                </div>
+            </section>
+
+            <!-- Threats & IP Registration Lists -->
+            <section class="dashboard-bottom-grid">
+                <!-- Recent Incidents Table -->
+                <div id="attacks-log-section" class="card glass-card table-card log-viewer-card">
+                    <div class="card-header">
+                        <h2><i class="fa-solid fa-shield-circle-exclamation"></i> Security Incident Register</h2>
+                    </div>
+                    <div class="card-body table-wrapper">
+                        <table class="data-table" id="attacks-table">
+                            <thead>
+                                <tr>
+                                    <th>Timestamp</th>
+                                    <th>Source IP</th>
+                                    <th>Attack Type</th>
+                                    <th>Signature Payload</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td colspan="5" class="loading-placeholder">Fetching security logs...</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Blocked IPs and Manual Override -->
+                <div id="blocked-ips-section" class="card glass-card blocklist-card">
+                    <div class="card-header">
+                        <h2><i class="fa-solid fa-user-shield"></i> Blocked IP Register</h2>
+                    </div>
+                    <div class="card-body">
+                        <!-- Manual Block Form -->
+                        <form id="manual-block-form" class="inline-form">
+                            <input type="text" id="manual-ip-input" placeholder="e.g. 198.51.100.42" required pattern="^((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$">
+                            <button type="submit" class="btn btn-primary"><i class="fa-solid fa-ban"></i> Blacklist IP</button>
+                        </form>
+                        
+                        <div class="table-wrapper blocklist-wrapper">
+                            <table class="data-table" id="blocked-ips-table">
+                                <thead>
+                                    <tr>
+                                        <th>IP Address</th>
+                                        <th>Blocked At</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td colspan="3" class="loading-placeholder">Loading blocklist...</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
